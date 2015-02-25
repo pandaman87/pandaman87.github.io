@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* Zachary Erwin's CSS Document. 
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+
+
+new color guide and thanks for the help!!
+
+FINAL DESIGN COLOR GUIDE
+
+DARK GREEN #008222
+LIGHT TAN #e9cc73
+DARK TAN #eab410
+WHITE #ffffff
+LIGHT VIOLET: #9653da
+LIGHT RED: #ff6363
+
+
+-----------------------------------------------
+dark red: 8F0C18
+dark yellow:E8CA14
+mint green: 16FFC4
+light violet: A214FF
+dark brown: 804100
+Black: #00000
+
+White: #ffffff
+Some shade of pink: #E87BE3
+a shade of violet: #FF06FF
+darksih red: #E00100
+Darkish orange; #FF5207 
+
+
+width:150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: ;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #16FFC4;
+
+
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+	background-color: #008222; /*#008222 can't help it spartan green...maybe */
+ /*delete background image*/
+ /* delete background image*/
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: black;/*keeping boarder*/
+	border-style: solid;
+	border-width: 5px;/* smaller px*/
+	padding: 50px;
+	background-color: #e9cc73;/*LIGHT TAN #e9cc73*/
+/* #ffffff call me old fashioned i think white looks better*/
+	font-family:  Times, "Times New Roman", Arial , Helvetica , Courier New , serif
+}
+
+
+
+
+
+h2 {
+	text-align:left;
+	padding:10px;
+	color:#e9cc73;/*DARK GREEN #008222----light tan insteadlight tan #e9cc73-*/
+	background-color:#008222 ; /*light tan #e9cc73-----dark green insteadDARK GREEN #008222 */
+}
+
+h3 {
+	text-align:left;
+	padding:10px;
+	color:#e9cc73;/*DARK GREEN DARK GREEN #008222*/
+	background-color:#008222;/*light tan #e9cc73 */
+	margin:10px;
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color:#008222; /*oringal #16ffc4 now DARK GREEN #008222 # */
+	border-style:solid;
+	border-width:3px;
+}
+
+
+/* The code below here alters your links */
+a {
+  text-decoration:none;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+
+a:hover {
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:#eab410;/*white to DARK TAN #eab410  */
+}
+
+
+a:visited {
+color:#ff6363; /*ORANGE #FF5207 to LIGHT RED: #ff6363*/
+}
+
+a:active {
+background-color:#000000;
+}
+
+#nav {
+	list-style-type:none;
+	background-color:#008222;/*use to be dark red #8f0c18 now DARK GREEN #008222*/
+	text-align:center;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#nav li 
+{
+	display:inline;
+
+}
+
+#nav a 
+{
+	
+	padding-left:30px;
+	padding-right:30px;
+	border-left-width:2px;
+	border-left-style:solid;
+	border-left-color:#e9cc73;/*LIGHT TAN #e9cc73*/
+
+}
+
+#firstnav a 
+{
+border-left:none;
+}
+
+
+#profilepic
+{
+
+	float:Left;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin-right:30px;
+	margin-left:-15px;
+
+}
+
+p
+{
+ margin:15px;	
+}
+
+
+#footer {
+	background-color:#008222;/*DARK GREEN #008222*/
+	padding:10px;
+	margin-top:30px;
+	margin-bottom:-30px;
+	font-size:small;	
+	
+	
+	
+	
+	
